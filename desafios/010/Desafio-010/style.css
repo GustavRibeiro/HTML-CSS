@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf')format('opentype')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --cor0:#C5EBD6;
+    --cor1:#3BD57F;
+    --cor3:#1A5C38;
+    --fonteprincipal: Arial, Helvetica, sans-serif;
+    --fonteandroid: idroid, oswald, Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebe5c5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.273);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+#cabecalho {
+    background-image: linear-gradient(to bottom,#3BD57F,#1A5C38);
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    width: 100%;
+    margin: 0px;
+}
+
+#cabecalho > h1 {
+    font-size: 3.5em;
+    font-family: oswald;
+    font-weight: 400;
+    padding-top: 20px;
+    margin: 0px 10px;
+}
+
+#cabecalho > p {
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 300;
+    margin: 0px 10px;
+}
+
+nav {
+    background-color: var(--cor3);
+    display: flex;
+    margin: 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: 0.6s;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    border-radius: 10px 10px 0px 0px;
+}
+
+article h1 {
+    font-family: idroid;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    color: var(--cor3);
+}
+.titulo {
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-family: idroid;
+    color: var(--cor3);
+}
+
+img, picture, iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#aprender {
+    background-color: #C5EBD6;
+    padding: 0px 15px 10px 15px;
+    border-radius: 15px;
+    margin: 15px 0px 0px 0px;
+    box-shadow: 5px 8px 8px 2px rgba(0, 0, 0, 0.168);
+}
+
+#aprender > h2 {
+    background-color:#2FA866 ;
+    color: white;
+    margin: 0px -15px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+ol {
+    list-style-type: '\2713\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    font-family: oswald;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}

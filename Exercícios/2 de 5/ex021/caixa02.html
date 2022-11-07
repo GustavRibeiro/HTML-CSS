@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: aliceblue;
+            padding: 3px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.366);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(21, 0, 128);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(171, 32, 60);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(170, 170, 170);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site - Criação GR Design</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Portifolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Novidades</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam libero eligendi cum minus blanditiis aspernatur corrupti, voluptatibus quibusdam, ipsum, distinctio dicta! Odio maiores molestiae praesentium sed, tempora ducimus aperiam?</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias e Atualidades</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum voluptatum id accusamus cupiditate quaerat architecto numquam eveniet, nemo excepturi, esse provident perspiciatis incidunt dolorem sit iure omnis? Inventore, labore sit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi repudiandae laborum! Error est perferendis quas blanditiis provident ab ipsa animi praesentium, veniam cumque dicta corrupti doloribus totam rem minus.</p>
+                <aside>
+                    <p>Artigo de teste unsando Lorem ipsum</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site em desenvolvimento - GR Design</p>
+    </footer>
+</body>
+</html>
