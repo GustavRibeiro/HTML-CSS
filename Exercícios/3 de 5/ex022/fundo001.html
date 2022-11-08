@@ -6,24 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imagem</title>
     <style>
-        div .quadrado {
+        div.quadrado {
+            display: inline-block;
             border: 1px solid black;
-            width: 300px;
-            height: 300px;
+            margin: 15px;
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            background-color: lightgrey;            
+        }
+
+        div#q1{
+            background-color: skyblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background: -webkit-gradient(linear, left top, right top, from(#ff4d00), to(#f703a6)) no-repeat;
+
         }
     </style>
 </head>
 
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
