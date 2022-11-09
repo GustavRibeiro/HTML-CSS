@@ -20,6 +20,8 @@ html,body {
     font-family: var(--fonte1);
 }
 
+/*------ AREA DO HEADER ------*/
+
 header {
     background-color: black;
     color: white;
@@ -36,6 +38,8 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
 }
+
+/*------ AREA DO MAIN ------*/
 
 a {
     color: white;
@@ -90,9 +94,11 @@ section#img02 {
     background-image: url('../imagens/background002.jpg');
 }
 
-
+/*------ AREA DO FOOTER ------*/
 
 footer {
+    line-height: 80px;
+    min-height: 80px;
     background-color: black;
     color: white;
     text-align: center;
