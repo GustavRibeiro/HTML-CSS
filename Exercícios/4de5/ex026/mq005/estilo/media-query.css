@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*  
+    TIPICAL DEVICE BREACK POINTS
+    ............................
+    Pqs Telas: < até 600px
+    Mobile: 601px até 768px
+    Tablet: 769px até 992px
+    Desktop: 993px até 1200px
+    Gds Telas: 1201px até >
+*/
+
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        width: 130px;
+    }
+
+    main {
+        width: 768px;
+    }
+}
